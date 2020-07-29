@@ -20,7 +20,7 @@ public class PostmanEchoTest {
                  // Проверки
                 .then()
                 .statusCode(200)
-                .body("headers", hasKey("accept"))
+                .body("headers", hasKey("original"))
         ;
     }
 }
